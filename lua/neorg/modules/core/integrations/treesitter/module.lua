@@ -85,6 +85,14 @@ module.config.public = {
             Title = "+Normal",
         },
 
+        Definition = {
+            [""] = "+TSPunctDelimiter",
+            End = "+TSPunctDelimiter",
+            Title = "+TSStrong",
+            -- TODO: figure out odd highlighting of ranged tag when using TSNone
+            Content = "+TSEmphasis",
+        },
+
         EscapeSequence = "+TSType",
 
         TodoItem = {
